@@ -1,0 +1,19 @@
+###
+
+This is a scanner that will work based off scanning a barcode using a flask website that will call data from a SQLite Database
+
+
+What needs to be done includes:
+
+Create a 15 barcode randomly generated based on the price and name of the object
+
+Append the barcode to the SQLite database that will also include: Name, Picture, Price of the item
+
+Flask app will host the app and will allow you to scan the product:
+   -You will get a picture
+   -Price of the object
+   -Object Name
+
+   Bonus features:
+
+   You will also be able to create new products that are locked on based on your store number
